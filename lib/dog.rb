@@ -8,4 +8,12 @@ class Dog
     @name
   end 
   
+  def breed=(breed)
+    @breed = breed_new.split
+  end
+  
+  def breed 
+    @breed
+  end 
+  
 end 
