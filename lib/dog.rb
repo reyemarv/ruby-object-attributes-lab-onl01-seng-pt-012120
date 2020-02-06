@@ -9,7 +9,7 @@ class Dog
   end 
   
   def breed=(breed)
-    @breed = breed_new.split
+    @breed = breed_new
   end
   
   def breed 
