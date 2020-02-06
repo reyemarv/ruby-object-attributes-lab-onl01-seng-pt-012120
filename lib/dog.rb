@@ -6,11 +6,10 @@ class Dog
   
   def name=(new_name)
     name = new_name.split
-    @name = name 
   end
   
   def name
-    #{name}
+    "#{name}".split 
   end 
   
 end 
